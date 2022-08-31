@@ -3,7 +3,6 @@ console.log('JS - OK!');
 let daComprare = '';
 
 while (daComprare !== 'FINITO') {
-    console.log('entra ciclo while');
     daComprare = prompt('Inserire prodotto da comprare o digitare "Finito" per terminare la lista').toUpperCase();
 
     if (daComprare !== 'FINITO') {
@@ -16,4 +15,3 @@ while (daComprare !== 'FINITO') {
     }
 
 }
-console.log('esce ciclo while');
