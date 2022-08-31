@@ -1,11 +1,11 @@
 console.log('JS - OK!');
 
-let daComprare = '';
+let daComprare = 'a';
 
-while (daComprare !== 'FINITO') {
+while (daComprare !== 'FINITO' && daComprare !== '') {
     daComprare = prompt('Inserire prodotto da comprare o digitare "Finito" per terminare la lista').toUpperCase();
 
-    if (daComprare !== 'FINITO') {
+    if (daComprare !== 'FINITO' && daComprare !== '') {
         let lista = document.createElement('li');
         let testoLista = document.createTextNode(daComprare);
 
